@@ -1,0 +1,233 @@
+Index HTML sin Assets:
+
+
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Proyect Manage</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<a href="index.html" class="logo"><strong>Proyect Manage</strong> <span>by Warlock Soft</span></a>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<ul class="actions">
+														<li><a href="#" class="button special">Ingresar: </a></li>
+													</ul>&nbsp;&nbsp;</p>
+
+													<form method="post" action="#">
+														<div class="row uniform">
+															<div class="6u 12u$(xsmall)">
+																<input type="text" name="demo-name" id="demo-name" value="" placeholder="Usuario / Correo" />
+															</div>
+															<div class="6u$ 12u$(xsmall)">
+																<input type="email" name="demo-email" id="demo-email" value="" placeholder="Contraseña" />
+															</div>
+															<br> </br>
+															
+															
+													</form>
+
+
+						
+
+					</header>
+
+
+
+				<!-- Banner -->
+					<section id="banner" class="major">
+						<div class="inner">
+							<header class="major">
+								<h1>Bienvenido a Proyect Manage</h1>
+								<h5>Proyect Manage es una solución facil y eficiente para crear y administrar tus proyectos y conectarte con otros emprendedores.</h5>
+								
+							</header>
+							<div class="content">
+								
+								
+							</div>
+							<ul class="actions">
+									<li><a href="#contact" class="button next scrolly">Crear Cuenta</a></li>
+									<li><a href="#one" class="button next scrolly">Como Funciona Proyect Manage</a></li>
+									
+								</ul>
+						</div>
+						
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one" class="tiles">
+								<article>
+									<span class="image">
+										<img src="images/pic01.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="landing.html" class="link">Perfiles</a></h3>
+										<p>Previsualización de un Perfil</p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/pic02.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="landing.html" class="link">Karma</a></h3>
+										<p>Conoce más sobre nuestro sistema de Puntuación de Experiencia</p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/pic03.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="landing.html" class="link">Proyecto</a></h3>
+										<p>Conoce los pasos para crear un proyecto</p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/pic04.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="landing.html" class="link">Administración de Proyecto</a></h3>
+										<p>Contamos con un espacacio para administrar tu proyecto</p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/pic05.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="landing.html" class="link">Co-working</a></h3>
+										<p>Te brindamos un espacio donde puedes compartir ideas y conocimiento</p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/pic06.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="" class="link">Ingresos</a></h3>
+										<p>Recuerda que conseguiras dinero terminando tareas y proyectos</p>
+									</header>
+								</article>
+							</section>
+
+						<!-- Two -->
+							
+
+					</div>
+
+				<!-- Contact -->
+					<section id="contact">
+						<div class="inner">
+							<section>
+								<form method="post" action="#">
+									<div class="field half first">
+										<label for="name">Nombre</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field half">
+										<label for="email">Segundo Nombre (Opcional)</label>
+										<input type="text" name="email" id="name2" />
+									</div>
+									<div class="field half first">
+										<label for="name">Apellido</label>
+										<input type="text" name="name" id="lastname" />
+									</div>
+									<div class="field half">
+										<label for="email">Segundo Apellido (Opcional)</label>
+										<input type="text" name="email" id="lastname2" />
+									</div>
+									<div class="field half first">
+										<label for="name">Usuario</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field half">
+										<label for="email">Contraseña</label>
+										<input type="text" name="email" id="name2" />
+									</div>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="text" name="email" id="email" />
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Crear Usuario" class="special" /></li>
+										<li><input type="reset" value="Borrar todo" /></li>
+									</ul>
+								</form>
+							</section>
+							<section class="split">
+								<section>
+									<div class="contact-method">
+										<span class="icon alt fa-home"></span>
+										<h3>Contáctanos</h3>
+										<span>Si deseas saber más sobre Proyect Manage,<br />
+										si deseas conocer más sobre warlock soft<br />
+										o si deseas conocer más sobre redes de Coworking.</span>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon alt fa-envelope"></span>
+										<h3>Correo</h3>
+										<a href="#">proyectmanage@warlocksoft.com</a>
+									</div>
+								</section>
+								
+								<section>
+									<div class="contact-method">
+										<span class="icon alt fa-phone"></span>
+										<h3>Teléfono</h3>
+										<span>(502)56309666</span>
+									</div>
+								</section>
+								
+							</section>
+						</div>
+					</section>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<ul class="icons">
+								<li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a href="#" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+								<li><a href="#" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							</ul>
+							<ul class="copyright">
+								<li>&copy; Proyect Manage</li><li>Design: <a href="">Warlock Soft</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

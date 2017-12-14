@@ -1,0 +1,90 @@
+GO
+USE MASTER
+go
+drop database db_Proyect
+GO
+CREATE DATABASE db_Proyect
+go
+USE db_Proyect
+GO
+
+CREATE TABLE Usuario(
+	id int identity(1,1) primary key,
+	nick varchar(255) not null,
+	contra varchar(255), 
+	
+)
+CREATE TABLE Amistad(
+	id int identity(1,1) primary key,
+	Usuario1 int not null,
+	Usuario2 int, 
+	fecha date,
+	foreign key(Usuario1) references Usuario(id),
+	foreign key(Usuario2) references Usuario(id)
+)
+
+
+--El que tiene una publicacion padre es un comentario ;) 
+CREATE TABLE Publicacion(
+	id int identity(1,1) primary key,
+	idUsuario int not null,
+	publicacionPadre int,
+	texto varchar(255),
+	imagen varchar(255), 
+	esPrivado bit,
+	foreign key(publicacionPadre) references Publicacion(id)
+)
+
+
+
+CREATE TABLE Grupo(
+	id int identity(1,1) primary key,
+	nombre varchar(255),
+	descripcion varchar(255)
+)
+CREATE TABLE Detalle_grupo(
+	Grupo int,
+	usuario int,
+	esAdmin bit, 
+	FOREIGN KEY(usuario) REFERENCES USUARIO(ID),
+	FOREIGN KEY(Grupo) REFERENCES Grupo(ID)
+)
+CREATE TABLE Proyecto(
+	id int identity(1,1) primary key,
+	nombre varchar(255),
+	descripcion varchar(255)
+)
+CREATE TABLE Detalle_proyecto(
+	Proyecto int,
+	usuario int,
+	esAdmin bit, 
+	FOREIGN KEY(usuario) REFERENCES USUARIO(ID),
+	FOREIGN KEY(Proyecto) REFERENCES Proyecto(ID)
+)
+
+
+CREATE TABLE ComentarPublicacion(
+	Comentario varchar(255),
+	publicacion int,
+	usuario int,
+	primary key(publicacion, usuario),
+	FOREIGN KEY(usuario) REFERENCES USUARIO(ID),
+	FOREIGN KEY(Publicacion) REFERENCES Publicacion(ID)
+)
+
+CREATE TABLE Conversacion(
+	id int identity(1,1) primary key,
+	grupo int,
+	amistad int, 
+	fecha date,
+	foreign key(amistad) references amistad(id),
+	foreign key(grupo) references grupo(id)
+)
+CREATE TABLE MENSAJE(
+	conversacion int not null,
+	usuario		int,
+	texto varchar(255),
+	imagen varchar(255),
+	foreign key(conversacion) references Conversacion(id),
+	foreign  key(usuario) references Usuario(id)
+)

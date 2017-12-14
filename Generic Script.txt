@@ -1,0 +1,185 @@
+Generic page sin assets
+
+
+<!DOCTYPE HTML>
+<
+<html>
+	<head>
+		<title>Generic - Forty by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo"><strong>Proyect Manage</strong> <span>by Warlock Soft</span></a>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<ul class="links">
+							<li><a href="index.html">Cerrar Sesión</a></li>
+						<ul class="actions vertical">
+					</nav>
+
+				<!-- Main -->
+					<div id="main" class="alt">
+
+						<!-- One -->
+							<section id="one">
+								<div class="inner">
+									<header class="major">
+										<h1>Nombre de Usuario</h1>
+									</header>
+
+													
+													<h4>Puntos de Karma</h4>
+													<div class="box alt">
+														<div class="row 50% uniform">
+															<div class="4u"><span class="image fit"><img src="images/pic98.jpg" alt="" /></span></div>
+															<div class="4u"><span class="image fit"><img src="images/pic99.jpg" alt="" /></span></div>
+															<div class="4u$"><span class="image fit"><img src="images/pic97.jpg" alt="" /></span></div>
+															<!-- Break -->
+															<div class="4u"><span class="image fit"><img src="images/pic96.jpg" alt="" /></span></div>
+															<div class="4u"><span class="image fit"><img src="images/pic95.jpg" alt="" /></span></div>
+															<div class="4u$"><span class="image fit"><img src="images/pic94.jpg" alt="" /></span></div>
+															<!-- Break -->
+															<div class="4u"><span class="image fit"><img src="images/pic93.jpg" alt="" /></span></div>
+															<div class="4u"><span class="image fit"><img src="images/pic92.jpg" alt="" /></span></div>
+															<div class="4u$"><span class="image fit"><img src="images/pic91.jpg" alt="" /></span></div>
+														</div>
+													</div>
+								</div>
+							</section>
+
+					</div>
+
+				<!-- Contact -->
+					<section id="contact">
+						<div class="inner">
+							<section>
+								<h3>Karma en habilidades:</h3>
+
+													<div class="table-wrapper">
+														<table>
+															<thead>
+																<tr>
+																	<th>Nombre</th>
+																	<th>Habilidad / Conocimiento</th>
+																	<th>Puntuación</th>
+																</tr>
+															</thead>
+															<tbody>
+																<tr>
+																	<td>HTML</td>
+																	<td>Desarrollo en programación Web en HTML</td>
+																	<td>7000 Puntos</td>
+																</tr>
+																<tr>
+																	<td>Java</td>
+																	<td>Desarrollo de apliaciones en Java</td>
+																	<td>15 puntos</td>
+																</tr>
+																<tr>
+																	<td>C#</td>
+																	<td>Desarrollo de aplicaciones en C#</td>
+																	<td>26 puntos</td>
+																</tr>
+																<tr>
+																	<td>Javascript</td>
+																	<td>Programación Web con Javascript</td>
+																	<td>28 puntos</td>
+																</tr>
+																
+															</tbody>
+															<tfoot>
+																<tr>
+																		
+																</tr>
+															</tfoot>
+														</table>
+													</div>
+							</section>
+							<section class="split">
+								<section>
+									<h4>Grupos</h4>
+													<div class="table-wrapper">
+														<table>
+															<thead>
+																<tr>
+																	<th>Nombre</th>
+																	<th>Descripcion</th>
+																	<th>Acceso</th>
+																</tr>
+															</thead>
+															<tbody>
+																<tr>
+																	<td>Aprende Java</td>
+																	<td>Ante turpis integer aliquet porttitor.</td>
+																	<td><a href="#" class="button small">Ir</a></td>
+																</tr>
+																<tr>
+																	<td>C# For noobs</td>
+																	<td>Vis ac commodo adipiscing arcu aliquet.</td>
+																	<td><a href="#" class="button small">Ir</a></td>
+																</tr>
+																<tr>
+																	<td>Proyecto Windows</td>
+																	<td> Morbi faucibus arcu accumsan lorem.</td>
+																	<td><a href="#" class="button small">Ir</a></td>
+																</tr>
+																
+															</tbody>
+															<tfoot>
+																<tr>
+																	<td colspan="2"></td>
+																	<td></td>
+																</tr>
+															</tfoot>
+														</table>
+													</div>
+								</section>
+							</section>
+						</div>
+					</section>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<ul class="icons">
+								<li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a href="#" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+								<li><a href="#" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							</ul>
+							<ul class="copyright">
+								<li>&copy; </li><li><a href="https://html5up.net"></a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
